@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Jogo da Velha</title>
+</head>
+<body>
+<!--Titulo e botões-->    
+    <h1>Jogo da Velha</h1>
+    <div id="buttons-container">
+        <button id="2-players">2 jogadores</button>
+        <button id="ai-player">Contra IA</button>
+    </div>
+<!--Grade do jogo da Velha-->    
+    <div id="container" class="hide">
+        <div class="box" id="block-1"></div>
+        <div class="box" id="block-2"></div>
+        <div class="box" id="block-3"></div>
+        <div class="box" id="block-4"></div>
+        <div class="box" id="block-5"></div>
+        <div class="box" id="block-6"></div>
+        <div class="box" id="block-7"></div>
+        <div class="box" id="block-8"></div>
+        <div class="box" id="block-9"></div>
+<!--Placar dos jogadores-->
+        <div id="scoreboard-container">
+            <h2>Placar:</h2>
+            <span class="score-box">
+                <span id="x-scoreboard">x</span>:
+                <span id="scoreboard-1">0</span>
+            </span>
+            <span class="score-box">
+                <span id="o-scoreboard"></span>:
+                <span id="scoreboard-2">0</span>
+            </span>
+        </div>
+    </div>
+<!--Div que contém os elementos X e O-->
+    <div class="hide">
+        <div class="x">x</div>
+        <div class="o"></div>
+    </div>
+<!--Div que que contém a menssagem da vitória do jogador ou velha.-->
+    <div id="message" class="hide">
+        <p></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
