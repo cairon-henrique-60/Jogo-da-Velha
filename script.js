@@ -31,10 +31,8 @@ for(let i = 0; i < boxes.length; i++) {
         if(secondPlayer == 'ai-player') {
 //função para incrementar a jogada
         computerPlay();
-
           player2++;
         }
-
         } else {
             player2++;
         }
